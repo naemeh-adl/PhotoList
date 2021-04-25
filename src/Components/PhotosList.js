@@ -18,7 +18,7 @@ export default function PhotoshList() {
             );
           })}
       </ul>
-      <button style={{margin:2}} id="fetch-photos" onClick={fetchphotos}>Fetch Photos</button>
+      <button style={{margin:2}} id="fetch-photos" onClick={()=>fetchphotos()}>Fetch Photos</button>
     </div>
   );
 }

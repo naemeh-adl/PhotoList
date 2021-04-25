@@ -10,7 +10,6 @@ function App() {
 ]);
  const fetchphotos=()=>{
    debugger;
-   console.log("fetttttttttttt");
    if(photos.length===2){
     fetchMyphotos([{title:"Roses", imgSrc:"https://www.weekendnotes.com/im/004/05/facebppl-1.jpg"},
    {title:"Lotus", imgSrc:"https://english.mathrubhumi.com/polopoly_fs/1.3215425.1539237272!/image/image.jpg_gen/derivatives/landscape_894_577/image.jpg"}
